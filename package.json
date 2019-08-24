@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon",
+    "build": "rimraf dist && tslint -c tslint.json 'src/**/*.ts' && tsc",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'"
+  },
+  "dependencies": {},
+  "name": "ts-boilerplate",
+  "version": "1.0",
+  "description": "Simple TypeScript boilerplate with Prettier, Nodemon and VSCode debugging",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "prettier": "1.18.2",
+    "rimraf": "^3.0.0",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.19.0",
+    "typescript": "^3.5.3"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "ignore": ["*.test.js"],
+  "watch": ["src/"],
+  "execMap": {
+    "ts": "node --inspect -r ts-node/register"
+  },
+  "inspect": true
+}
